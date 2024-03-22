@@ -15,14 +15,14 @@ p {
     font-size: 12px;
 }
 
-div {
-    border: dotted 2px;
+.div-class {
+    border: 2px dotted;
     width: 100px;
     height: 100px;
 }
 
 ol {
-    list-style-type: letter;
+    list-style-type: upper-alpha;
 }
 
 ul {
