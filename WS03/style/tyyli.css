@@ -1,13 +1,30 @@
 body {
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
 
 h1 {
     color: white;
     text-align: center;
+    font-size: 20px;
 }
 
 p {
+    color: lightgrey;
     font-family: Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 12px;
+}
+
+div {
+    border: dotted 2px;
+    width: 100px;
+    height: 100px;
+}
+
+ol {
+    list-style-type: letter;
+}
+
+ul {
+    list-style-type: square;
 }
