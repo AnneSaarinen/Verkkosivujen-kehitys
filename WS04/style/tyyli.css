@@ -1,0 +1,54 @@
+body {
+    background-image: url('pikist.jpg');
+    background-size: cover;
+    width: 80%; /* Adjust as needed */
+    height: 100vh; /* vh stands for viewport height */
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    border: 2px solid rgb(73, 2, 2);
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    background-color: #f5c2c2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+a {
+    color: black;
+}
+
+.kokomuutos {
+    width: 200px;
+    height: 200px;
+}
+
+div {
+    background-color: #f5c2c2;
+    border-radius: 10px;
+}
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+ul {
+    list-style-type: square;
+}
