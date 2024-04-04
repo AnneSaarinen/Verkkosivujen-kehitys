@@ -19,6 +19,12 @@ section {
     padding: 20px;
 }
 
+article {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 aside {
     width: 30%;
     padding-left: 15px;
