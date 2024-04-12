@@ -41,7 +41,6 @@ header {
 }
 
 section {
-    background-color: #7cc2b6;
     padding: 20px;
         -webkit-flex-direction: column;
         flex-direction: column;  
