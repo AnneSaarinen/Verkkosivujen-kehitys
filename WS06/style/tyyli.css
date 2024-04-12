@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 90%;
+}
+.nav-main {
+    background-color: #062520;
+    color: #ffffff;
+    padding: 20px;
+    width: 90%;
+    a:link {color:#7eada2;}
+  a:visited {color:#ffffff;}
+  a:focus {color:#FF0000;}
+  a:hover {color:#fd0101;}
+  a:active {color:#478872;}
+  ul { list-style-type: none;}
+  a { text-decoration: none;
+    padding-right: 10px; }
+  li { display: inline; }
+}
+
+.nav-side {
+    background-color: #127967;
+    color: #ffffff;
+    padding: 10px;
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    a:link {color:#7eada2;}
+  a:visited {color:#ffffff;}
+  ul { list-style-type: none;}
+  a { text-decoration: none;
+    padding-right: 5px; }
+}
+
+section {
+    background-color: #7cc2b6;
+    padding: 20px;
+        -webkit-flex-direction: column;
+        flex-direction: column;  
+        width: 70%;      
+}
+
+article {
+    background-color: #f2f2f2;
+    padding: 20px;
+        -webkit-flex-direction: column;
+        flex-direction: column; 
+        width: 60%;  
+}
+
+.kokomuutos {
+    width: 200px;
+    height: 200px;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
+
+    
