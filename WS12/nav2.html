@@ -58,16 +58,12 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script>
-        // Get the modal
         var modal = document.getElementById("myModal");
-        
-        // Get the image and insert it inside the modal
         var images = document.getElementsByClassName("myImg");
 
 // Add onclick event to each image
 for (var i = 0; i < images.length; i++) {
     images[i].onclick = function(){
-        // Get the modal for this image
         var modal = document.getElementById("myModal" + this.id.slice(-1));
         var modalImg = document.getElementById("img0" + this.id.slice(-1));
         modal.style.display = "block";
@@ -75,9 +71,7 @@ for (var i = 0; i < images.length; i++) {
     }
 }
 
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    // Check if the clicked element is a modal
     if (event.target.classList.contains("modal")) {
         event.target.style.display = "none";
     }
