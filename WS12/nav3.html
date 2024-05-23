@@ -18,22 +18,25 @@
         <div class="row">
         <div class="col-sm-3">
             <nav class="nav flex-column">
-                <a class="nav-link" aria-current="page" href="Index.html">Tietoa minusta liittyen tatuointeihin</a>
-                <a class="nav-link" href="nav2.html">Toiveet tatuoinnin suhteen</a>
-                <a class="nav-link active" href="nav3.html">Nav 3</a>
-                <a class="nav-link" href="nav4.html">Nav 4</a>
+                <a class="nav-link" href="Index.html">Tietoa minusta</a>
+                <a class="nav-link" href="nav2.html">Toiveet tatuoinnista</a>
+                <a class="nav-link active" aria-current="page" href="nav3.html">Ota yhteyttä</a>
               </nav>
         </div>
         <div class="col-sm-8 ms-auto">
-          <h2>Tietoa minusta</h2>
-          <img src="https://placehold.it/200x300" class="float-right" alt=""><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec nibh tristique, aliquet tortor id, dapibus lectus. Cras dapibus aliquet dui eget laoreet. Suspendisse in pellentesque erat. Sed congue leo eget suscipit rutrum. Nulla venenatis, nulla in euismod scelerisque, diam felis gravida arcu, ut euismod quam libero non diam. Donec finibus nulla sed libero tempor, sed bibendum erat egestas. Etiam quis tellus erat.
-            </p>
-            <p>
-                Aenean non ipsum a orci porttitor viverra. Cras et magna molestie, convallis dui quis, dapibus massa. Vestibulum malesuada ipsum arcu, at vulputate lorem ultricies at. Sed semper pretium vestibulum. Pellentesque rhoncus odio non vulputate convallis. Vivamus in tempor lectus. Proin in metus in turpis imperdiet luctus. Suspendisse quis dui a diam faucibus gravida quis sit amet sapien. Duis viverra sem tellus, venenatis mattis velit luctus ut. Sed ut diam arcu. 
-            </p>
-            <p>
-                Quisque ante dui, pellentesque eu magna eu, accumsan rhoncus nisl. Nam sed risus turpis. Donec vulputate volutpat orci. Donec iaculis quis lorem sit amet hendrerit. Etiam ut nisl semper, dapibus neque sed, varius urna. Nunc sit amet sagittis velit. Nullam mauris eros, imperdiet id metus a, efficitur blandit lacus. Sed vel nulla a libero porta bibendum. Maecenas et accumsan ex, eu bibendum dolor. Nulla facilisi. 
-            </p>
+          <h2>Ota yhteyttä, jos tatuointi-ideani iski, ja haluat tehdä yhteistyötä</h2>
+          <form>
+            <label for="fname">Etunimi</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Sukunimi</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Sähköpostisi</label><br>
+            <input type="text" id="email" name="email"><br>
+            <p>Kerro, millainen tatuointi sinulla on mielessäsi, ja millainen budjetti tatuointiin tarvittaisiin.</p>
+            <textarea name="message" rows="10" cols="30">
+                </textarea> <br><br>
+            <input type="submit" value="Lähetä">
+          </form> 
         </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
